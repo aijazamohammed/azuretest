@@ -103,7 +103,8 @@ function Install-Packages
         $Packages
     )
 
-    $Packages = $Packages.split(',; ', [StringSplitOptions]::RemoveEmptyEntries)
+#    $Packages = $Packages.split(',; ', [StringSplitOptions]::RemoveEmptyEntries)
+    $Packages = python
     $Packages | % {
         $checkSumFlags = ""
         if ($AllowEmptyChecksums)
