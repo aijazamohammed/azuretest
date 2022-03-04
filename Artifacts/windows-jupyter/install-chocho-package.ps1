@@ -4,3 +4,4 @@
 
 #but if you want  Jupyter only use
 pip install jupyter
+jupyter notebook
