@@ -1,0 +1,14 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/schemas/2016-11-28/dtlArtifacts.json",
+    "title": "Python - Aijaz",
+    "publisher": "Microsoft",
+    "description": "Install Python on Linux..",
+    "tags": [
+        "Python",
+        "Linux"
+    ],
+    "targetOsType": "Linux",
+    "runCommand": {
+        "commandToExecute": "['sh linux_install_python_v1.sh']"
+    }
+}
