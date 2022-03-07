@@ -3,5 +3,5 @@
 #GOTo : https://colab.research.google.com/
 
 #but if you want  Jupyter only use
-pip install jupyter
+pip3.7.exe install jupyter
 jupyter notebook
