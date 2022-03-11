@@ -2,15 +2,13 @@
     "$schema": "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/schemas/2016-11-28/dtlArtifacts.json",
     "title": "jupyter-aijaz",
     "publisher": "Microsoft",
-    "description": "Installs python using the Chocolatey package manager",
+    "description": "Install Jupyter using pyhon PIP Packages",
     "tags": [
         "Windows",
         "Jupyter"
     ],
     "targetOsType": "Windows",
     "runCommand": {
-        "commandToExecute": "[concat('powershell.exe -ExecutionPolicy bypass \"& ./install-choco-package.ps1 -Packages ', 'jupyter', '\"')]"
+        "commandToExecute": "[concat('powershell.exe -ExecutionPolicy bypass \"& ./install-jupyter.ps1 -Packages ', 'jupyter', '\"')]"
     }
 }
-
-
