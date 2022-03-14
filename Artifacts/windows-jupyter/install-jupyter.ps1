@@ -13,11 +13,3 @@ pip3.7.exe install jupyter
 
 #Run the jupyter notebook packages
 jupyter-notebook.exe
-
-
-mkdir c:\envs
-cd c:\envs
-
-(new-object System.Net.WebClient).DownloadFile('https://raw.github.com/pypa/pip/master/contrib/install-jupyter.ps1', 'c:\envs\install-jupyter.ps1')
-
-powershell.exe c:\envs\install-jupyter.ps1
