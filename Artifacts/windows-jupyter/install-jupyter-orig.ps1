@@ -12,4 +12,4 @@ python -m pip install --upgrade pip
 pip3.7.exe install jupyter
 
 #Run the jupyter notebook packages
-jupyter-notebook.exe
+#jupyter-notebook.exe
